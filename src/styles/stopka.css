@@ -1,0 +1,25 @@
+.stopka {
+  padding: 0.5rem 0.3rem;
+  width: 100%;
+  background-color: rgb(108, 147, 255);
+  border-top: 1px solid white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+
+@media (min-width: 950px) {
+  .stopka {
+    height: 13vh;
+    padding: 0 3rem;
+  }
+}
+
+@media (min-width: 1400px) {
+  .stopka {
+    padding: 0 15%;
+  }
+
+}

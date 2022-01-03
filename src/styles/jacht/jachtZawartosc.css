@@ -1,0 +1,118 @@
+.jachtZawartosc {
+  min-height: calc(100vh - 4rem - 13vh);
+  padding: 1rem 0;
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.zdjecieZawartosc {
+  width: 100%;
+}
+
+.zdjecieJacht,
+.infoZawartosc {
+  width: 100%;
+}
+
+.titleZawartosc {
+  text-align: center;
+}
+
+.infoZawartosc {
+  padding: 1rem;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+}
+
+.formularz {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.dataBox {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.formularz input {
+  outline: none;
+  padding: 0.2rem;
+  line-height: 1.1rem;
+}
+
+.formularz input::placeholder {
+  color: rgb(49, 49, 49);
+}
+
+.przycikZarezerwuj {
+  padding: 0.5rem 0;
+  border: none;
+  border-radius: 5px;
+  background-color: green;
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-size: 1.4rem;
+}
+
+.przycikZarezerwuj:hover {
+  background-color: rgb(4, 172, 4);
+}
+
+.tekstZawartosc {
+  text-align: justify;
+}
+
+.spanGruby {
+  font-weight: 700;
+}
+
+.nieMa {
+  text-align: center;
+}
+
+.rezerwacjaKolor {
+  color: red;
+}
+
+.wiadomoscRezerwacja {
+  color: green;
+  text-align: center;
+}
+
+.wiadomoscError {
+  color: red;
+  text-align: center;
+}
+
+@media (min-width: 950px) {
+  .jachtZawartosc {
+    width: 85%;
+    flex-direction: row;
+  }
+
+  .infoZawartosc {
+    width: 40%;
+  }
+
+  .zdjecieZawartosc {
+    width: 60%;
+  }
+
+  .dataBox {
+    gap: 0;
+  }
+}
+
+@media (min-width: 1400px) {
+  .jachtZawartosc {
+    width: 70%;
+  }
+
+}
